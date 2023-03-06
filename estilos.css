@@ -1,0 +1,222 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  background-color: #ececec;
+}
+
+.logo {
+  max-width: 5rem;
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: #1c1c1c;
+}
+
+.abrir-menu,
+.cerrar-menu {
+  display: none;
+}
+
+@media screen and (max-width: 550px) {
+  .abrir-menu,
+  .cerrar-menu {
+      display: block;
+      border: 0;
+      font-size: 1.25rem;
+      background-color: transparent;
+      cursor: pointer;
+  }
+
+  .abrir-menu {
+      color: #1c1c1c;
+  }
+
+  .cerrar-menu {
+      color: #ececec;
+  }
+
+  .nav {
+      opacity: 0;
+      visibility: hidden;
+      display: flex;
+      flex-direction: column;
+      align-items: end;
+      gap: 1rem;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #1c1c1c;
+      padding: 2rem;
+      box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+  }
+
+  .nav.visible {
+      opacity: 1;
+      visibility: visible;
+  }
+  
+  .nav-list {
+      flex-direction: column;
+      align-items: end;
+  }
+
+  .nav-list li a {
+      color: #ecececec;
+  }
+} */
+
+/***********************************************************/
+
+body {
+  font-family: 'Poppins';
+  margin: 0;
+  padding: 0;
+}
+  
+p {
+  font-size: 20px;
+}
+li {
+  list-style: none;
+  margin-right: 25px;
+}
+  
+#primero {
+  font-size: 30px;
+}
+.logo{
+  width: 50px;
+  height: 50px;
+}
+.nombre{
+  margin: 0;
+}
+  
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.lista {
+  display: flex;
+}
+  
+.titular {
+  text-align: center;
+  margin-top: 200px;
+}
+  
+h1 {
+  font-size: 60px;
+  margin: 0;
+}
+  
+h2 {
+  font-size: 25px;
+  margin-bottom: 40px;
+}
+
+a {
+  font-size: 14px;
+  background: #5cb8ff;
+  padding: 20px 30px 20px 30px;
+  color: white;
+}
+
+header {
+  background: url("imagenesdelproyecto/fondo.jpg");
+  height: 150vh;
+  background-size: cover;
+}
+
+
+.contenedor {
+  max-width: 1280px;
+  width: 90%;
+  margin: auto;
+}
+
+/* ARRANCA SECCION SOBRE MI */
+
+h3 {
+  text-align: center;
+  font-size: 55px;
+  font-weight: normal;
+}
+
+.contenedor-sobremi {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.edwin-estiven-pisso{
+  width: 480px; 
+  height: 450px;
+  margin-left: 50px;
+  
+}
+
+.contenedor-parrafo-y-boton {
+  width: 42%;
+}
+
+.contenedor-parrafo-y-boton p {
+  font-size: 18px;
+}
+
+.parrafo-final {
+  margin-bottom: 30px;
+}
+
+.contenedor-servicios {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.servicio {
+  width: 25%;
+  padding: 50px 38px 50px 38px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  color: #fff;
+}
+.violeta {
+  background: #5055df;
+}
+  
+.celeste {
+  background: #40a8fa;
+}
+  
+.servicio h4 {
+  font-size: 30px;
+  margin: 0;
+}
+  
+.servicio img {
+  float: right;
+}
+  
+.servicio p {
+  font-size: 18px;
+}
+
