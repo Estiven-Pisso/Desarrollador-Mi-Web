@@ -141,7 +141,7 @@ a {
 }
 
 header {
-  background: url("imagenesdelproyecto/fondo.jpg");
+  background: url("img/fondo.jpg");
   height: 150vh;
   background-size: cover;
 }
